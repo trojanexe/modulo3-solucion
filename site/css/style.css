@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 50px;
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+
+}
+body{
+	background-color: #D8BFD8;
+ font-size: 20px;
+
+}
+#header-nav {
+  background-color: #330033;
+  border-radius: 0;
+  border: 0;
+  }
+ 
+.navbar-brand {
+  padding-top: 5px;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header h1 {
+  font-family: "Lucida Sans Unicode";
+  color: #606060 ;
+  font-size: 1.5em;
+ margin-left: 20px;
+ text-align: left;
+}
+
+#collapsable-nav span:hover{
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #D8BFD8;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.A{
+   background: B266FF;
+   border: 1px solid black;
+   float: left;
+   padding: 35px 5px 5px 5px;
+   background-color: #66b2ff;
+   position: relative;
+    margin-left: 40px;
+    margin-right: 10px;
+   margin-bottom: 15px;
+}
+ .B{
+   background: B266FF;
+   border: 1px solid black;
+   float: left; ;
+   padding: 35px 5px 5px 5px;
+  background-color: #66b2ff;
+  position: relative;
+   margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}  
+.C{
+   background: B266FF;
+   border: 1px solid black;
+   float: left;
+   padding: 35px 5px 5px 5px;
+   background-color: #66b2ff;
+   position: relative;
+    margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+
+#p1 {
+	background-color: #696969;
+	margin: 0px;
+  border: 1px solid black;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+ position: absolute;
+ top: 0;
+ right: 0;
+}
+#p2 {
+	background-color: #8B008B;
+  border: 1px solid black;
+ margin: 0px;
+  text-align: center;
+   width: 100px;
+  height: 25px;
+  position: absolute;
+ top: 0;
+ right: 0;
+
+}
+#p3 {
+	background-color: #4169E1;
+	margin: 0;
+     width: 100px;
+  height: 25px;
+  border: 1px solid black;
+  text-align: center;
+  position: absolute;
+ top: 0;
+ right: 0;
+}
+p {
+  border: 1px solid black;
+  width: 90%;
+  color: black;
+
+  }
+  .A a{
+  width: 90%;
+  color: black; 
+  font-style: italic;
+  font-size: .9em;
+  }
+
+   .B a{
+  width: 90%;
+  color: black; 
+  font-style: italic;
+   font-size: .9em;
+  }
+ .C a{
+  width: 90%;
+  color: black; 
+  font-style: italic;
+   font-size: .9em;
+  }
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .A {
+    width: 31%;
+  }
+
+   .B {
+    width: 31%;
+}
+   .C{
+  width: 31%;
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 1199px) {  
+  .A {
+    width: 45%;
+  }
+
+   .B {
+    width: 45%;
+}
+.C{
+  width: 90%;
+  margin-left: 40px;
+}
+
+}
+@media (max-width: 767px) {
+.A{
+    width: 90%;
+}
+.B{
+  width: 90%;
+  margin-left: 40px;
+
+  }
+
+.C{
+  width: 90%;
+  margin-left: 40px;
+  }
